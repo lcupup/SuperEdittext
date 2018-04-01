@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false"  android:drawable="@drawable/register_btn_code_pre_bg"/>
+    <item android:state_enabled="true" android:drawable="@drawable/register_btn_code_after_bg"/>
+
+</selector>

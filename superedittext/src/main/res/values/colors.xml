@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--次要文字-->
+    <color name="three_black">#666666</color>
+    <!--主题色 蓝色-->
+    <color name="bule">#477dfa</color>
+    <!--内容栏背景色-->
+    <color name="two_body_bg">#fff</color>
+    <!--灰色ad-->
+    <color name="gray_ad">#adadad</color>
+</resources>

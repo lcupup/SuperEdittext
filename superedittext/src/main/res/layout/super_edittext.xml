@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!--<merge--><!--&gt;-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/super_edittext_relative">
+
+    <EditText
+        android:id="@+id/input_et"
+        style="@style/super_edittext" />
+
+    <LinearLayout style="@style/super_edittext_linearlayout">
+
+        <ImageView
+            android:id="@+id/super_edittext_clean"
+            style="@style/super_edittext_clean" />
+
+        <ImageView
+            android:id="@+id/hide_or_show"
+            style="@style/super_edittext_show_hide" />
+    </LinearLayout>
+
+</RelativeLayout><!--</merge>-->
