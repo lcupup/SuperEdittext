@@ -1,0 +1,2 @@
+include ':SampleDemo', ':superedittextlib'
+rootProject.name='SuperEdittextDemo'

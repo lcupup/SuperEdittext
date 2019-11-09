@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--<merge--><!--&gt;-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/super_edit_text_relative_layout">
+
+
+    <EditText
+        android:id="@+id/super_edit_text_input_et"
+        style="@style/super_edit_text" />
+
+    <LinearLayout style="@style/super_edit_text_linear_layout">
+
+        <ImageView
+            android:id="@+id/super_edit_text_clean"
+            style="@style/super_edit_text_clean" />
+
+        <TextView
+            android:id="@+id/super_edit_get_verification_img"
+            style="@style/super_edit_text_get_verification_img" />
+
+        <ImageView
+            android:id="@+id/super_edit_text_status"
+            style="@style/super_edit_text_status"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/super_edit_text_icon"
+        style="@style/super_edit_text_icon" />
+
+    <View style="@style/super_edit_text_line" />
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="super_edit_text_relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/color_white</item>
+    </style>
+
+    <style name="super_edit_text">
+        <item name="android:paddingLeft">35dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/color_black_212121</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <style name="super_edit_text_status">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/visibility_off</item>
+    </style>
+    <!--登录页面 清理-->
+    <style name="super_edit_text_clean">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:src">@drawable/clear</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+
+    <style name="super_edit_text_linear_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="super_edit_text_icon">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="super_edit_text_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_gray_BDBDBD</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="super_edit_text_get_verification_img">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/selector_blue_gray</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:enabled">false</item>
+        <item name="android:text">@string/login_get_verification_code</item>
+    </style>
+
+    <!--superEdittext-->
+
+
+
+</resources>

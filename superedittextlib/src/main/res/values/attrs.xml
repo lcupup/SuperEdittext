@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuperEdittext">
+        <attr name="super_edit_text_hint" format="string" />
+        <attr name="super_edit_text_icon" format="reference" />
+        <attr name="super_edit_type" format="enum">
+            <enum name="super_account" value="0" />
+            <enum name="super_pass_word" value="1" />
+            <enum name="super_phone" value="2" />
+            <enum name="super_verification" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

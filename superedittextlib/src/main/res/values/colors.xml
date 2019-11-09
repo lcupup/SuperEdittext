@@ -9,4 +9,8 @@
     <color name="two_body_bg">#fff</color>
     <!--灰色ad-->
     <color name="gray_ad">#adadad</color>
+    <color name="color_gray_9E9E9E">#9E9E9E</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black_212121">#212121</color>
+    <color name="color_gray_BDBDBD">#BDBDBD</color>
 </resources>
