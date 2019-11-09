@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+
+    android:paddingEnd="15dp"
+    tools:context=".MainActivity">
+
+    <com.cfpl.superedittext.SuperEdittext
+        android:id="@+id/super_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:super_edit_text_hint="请输入手机号"
+        app:super_edit_text_icon="@drawable/callphone"
+        app:super_edit_type="super_phone" />
+
+    <com.cfpl.superedittext.SuperEdittext
+        android:id="@+id/super_pass_word"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:super_edit_text_hint="请输入密码"
+        app:super_edit_text_icon="@drawable/lock"
+        app:super_edit_type="super_pass_word" />
+
+    <com.cfpl.superedittext.SuperEdittext
+        android:id="@+id/super_verification"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        app:super_edit_text_hint="请输入短信验证码"
+        app:super_edit_text_icon="@drawable/mail"
+        app:super_edit_type="super_verification" />
+
+
+</LinearLayout>
